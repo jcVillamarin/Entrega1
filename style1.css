@@ -77,8 +77,18 @@
 
   .imagen1
   {
-    max-width: 40px;
+    max-width: auto;
+    width:350px;
+    alt:350px;
+    height:350px;
   }
+
+.linkkk
+{
+  font:larger;
+  color:lightblue;
+}
+
 
   * 
     * {
@@ -114,8 +124,21 @@
   .child {
     flex: 1 0 21%; 
     margin: 5px;
-    height: 100px;
-    background-color: rgb(145, 145, 145);
+    height: 400px;
+    background-color: rgb(70, 70, 70);
+    padding: 30px;
+    
+
+    color:white;
+    font-size:medium;
+    font-family: sans-serif;
+    text-align:center;
+    
+    border-spacing: 15px;
+   
+    line-height:30px;
+    justify-content: space-between;
+  
   }
 
   .center {
