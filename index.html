@@ -5,43 +5,53 @@
   <nav>
     <ul class="menu">
         <li class="logo"><a href="#">Everything about me</a></li>
-        <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">Contact</a></li>
+        <li class="item"><a href="#header">Home</a></li>
         <li class="item has-submenu">
             <a tabindex="0">Who am I</a>
             <ul class="submenu">
                 <li class="subitem"><a href="#academics">Experience</a></li>
-                <li class="subitem"><a href="#">Interests</a></li>
-                <li class="subitem"><a href="#footer">Hobbies</a></li>
+                <li class="subitem"><a href="#awa">Interests</a></li>
+                <li class="subitem"><a href="#hobbies"> Hobbies</a></li>
                 <li class="subitem"><a href="#academics">Academics</a></li>
             </ul>
         </li>
         <li class="item has-submenu">
             <a tabindex="0">Contact</a>
             <ul class="submenu">
-                <li class="subitem"><a href="#">Contact me!</a></li>
-                <li class="subitem"><a href="#">Where to contact</a></li>
+                <li class="subitem"><a href="#awa">Awa Awa</a></li>
+                <li class="subitem"><a href="#footer">Where to contact</a></li>
             
             </ul>
-        </li>
-        <li class="item"><a href="#">Proyects</a></li>
+      
         </li>
         
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i>menu</a></li>
     </ul>
 </nav>
 
 
     
 
-  <div class="header">
-    <h1> Juan Pablo Martinez Contreras test1</h1>
+  <div class="header" id=header>
+    <h1 class="ml9">
+      <span class="text-wrapper">
+        <span class="letters">Juan Pablo</span>
+      </span>
+    </h1>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <img src="yo.jpeg" alt="presentacion" width="304" height="342">
   </div>
 
     <head> 
 
-      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+            crossorigin="anonymous">
+    </script>
       <link rel="stylesheet" href="/Entrega1/style1.css">
 
         
@@ -68,12 +78,12 @@
         <table class=table1 id=academics>
             <tr >
               <th>Academics</th>
-              <th>Experience</th> 
+              <th>Experience and Proyects</th> 
               
             </tr>
             <tr class= table2>
-              <td class=content1> I graduated from a school in Pereira named Fundacion Liceo Ingles, and passed through other schooles such as Colegio Granadino, and Himnacio Horizontes.
-                 I am in grat debt with all of these shcools, as they formed me to be a person that has its vallues clear and is very deterministic. During this time, I did several 
+              <td class=content1> I graduated from a school in Pereira named Fundacion Liceo Ingles, and passed through other schooles such as Colegio Granadino, and Gimnasio Horizontes.
+                 I am in great debt with all of these shcools, as they formed me to be a person that has its vallues clear and is very deterministic. During this time, I did several 
                 courses that led me to believe that Engineering was the right path to take, specifically software Engineering. After taking this decition, i went to Bogota to choose 
               my future univerisy. The decition was clear, i was going to be attending Universida de los Andes to study "Ingenieria de Sistemas". As of 2/10/2021 Im currently on mmy sixth semester
             and ive been having a blast, loving every second of my carrer this far.</td>
@@ -88,16 +98,19 @@
            
           </table>
 
-<h2>Hobbies</h2>
+<h2>hobbies</h2>
        
           <div class="bungo">
             <div class="parent">
               <div class="child">
                 <img src="walbra.png" width=auto alt=auto height=auto class="imagen1">
               </div>
-              <div class="child">I love drawing! it makes me very calm and with a true feeling of peace. I express my emotions through drawing and specially love to do it
+              <div id=hobbies class="child">I love drawing! it makes me very calm and with a true feeling of peace. I express my emotions through drawing and specially love to do it
                 by myself in complete silence, even without music. Here are some examples of some of my artwork, i have many others but decided to intrigue you into checking me out!
                 Its completely free and it definitely helps me a lot.
+                <div></div>
+                <div></div>
+                <div>CLICK THE LINKS!!</div>
               </div>
 
               
@@ -137,7 +150,7 @@
       </video>
       </div>
     </td> 
-    <td class="content3"> I love learning about stop motion on my spare time, its something that takes me a lot of time and dedication. It takes too much of my time, I still love it though. 
+    <td class="content3"> I love learning about stop motion on my spare time, its something that takes me a lot of time and dedication. It probably takes too much of my time, I still love it though. 
       It is mainly between this and playing videogames. I also love chit chatting with my friends! Whenever i can affor to, I love playing basketball specially with my school friends, 
       we had a great competitive team. This is a picture of hoy many layers does the video have.
       <div><img src="dosney.jpeg"  width=auto height=300px></div>
@@ -156,21 +169,7 @@
 
         
     </main>
-<h2>Contactame! (dating) (no estoy interesado pero igual) </h2>
-  
-    <form id=form action="nohayejemplo" method="get">
-        <p>Nombre: <input type="text" name="nombre" size="40"></p>
-        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
-        <p>Sexo:
-          <input type="radio" name="hm" value="h"> Hombre
-          <input type="radio" name="hm" value="m"> Mujer
-        </p>
-        <p>Esta usted interesado en mi?: <input type="text" name="dating" size="5"></p>
-        <p>
-          <input type="submit" value="Enviar">
-          <input type="reset" value="Borrar">
-        </p>
-      </form>
+
 
 
 
@@ -178,9 +177,55 @@
 
 </body>
 
-<footer id=footer>
-    <p>Instagram: chuchomartinez27</p>
-    <p>Ya no tengo mas redes sociales sorry</p>
 
+
+<audio class="audio" controls id=awa >
+  <source src="awa awa dog.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+<footer class="footer" id=footer>
+  <nav class="navbar navbar-default navbar-custom">
+      <div class="container-fluid">
+          <div class="nav navbar-nav navbar-left">
+              <ul class="footerleft">
+                  <li>
+                      <a href="https://twitter.com/chuchomar27">Twitter</a>                   
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/">Facebook</a>                    
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/chuchomartinez27/">Instagram</a>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="text-center center-block">
+              <a href="#https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+              <a href="#https://twitter.com/chuchomar27"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+              <a href="#https://www.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+              <a href="#https://www.google.com/search?q=penis+parker%5C&sxsrf=ALeKk02HLOC8Hk_8OmrHLmfjJa_Sdjp2Gg:1613161627913&tbm=isch&source=iu&ictx=1&fir=R5Xa7bGRcUBcqM%252CKWSPfaxoxbPOwM%252C_&vet=1&usg=AI4_-kSPtuGBmeb1sxtH7gjOehp2UxQBdA&sa=X&ved=2ahUKEwiF1q-ul-XuAhVLrFkKHaZeDIAQ9QF6BAgKEAE&biw=1920&bih=969#imgrc=R5Xa7bGRcUBcqM"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+          </div>
+          <div class="nav navbar-nav navbar-right">
+          <ul>
+
+            <li>
+              Surprise Link ahead! watch with discretion :p
+          </li>
+              <li>
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">Link 1</a>
+              </li>
+              <li>
+                  <a href="https://www.youtube.com/watch?v=wKbU8B-QVZk&feature=youtu.be&ab_channel=PWee28">Link 2</a>
+              </li>
+              
+          </ul>
+      </div>
+
+      </div>
+      
+  </nav>
 </footer>
 </html>
