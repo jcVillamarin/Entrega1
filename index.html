@@ -1,235 +1,360 @@
 <!DOCTYPE html>
 
 <html>
-
+  <!-- El codigo esta desordenado y es dificil de leer por la misma razon, tambien creo que podrias organizar las imagenes en varias filas y no en una sola columna
+tambien creo que le falta algo de diseno a la pagina ya pare que los elementos solo estuvieran puestos sin oreden tambien como puedes ver en la captura del validador hay varios 
+errores dentro del codigo-->
   <nav>
     <ul class="menu">
-        <li class="logo"><a href="#">Everything about me</a></li>
-        <li class="item"><a href="#header">Home</a></li>
-        <li class="item has-submenu">
-            <a tabindex="0">Who am I</a>
-            <ul class="submenu">
-                <li class="subitem"><a href="#academics">Experience</a></li>
-                <li class="subitem"><a href="#awa">Interests</a></li>
-                <li class="subitem"><a href="#hobbies"> Hobbies</a></li>
-                <li class="subitem"><a href="#academics">Academics</a></li>
-            </ul>
-        </li>
-        <li class="item has-submenu">
-            <a tabindex="0">Contact</a>
-            <ul class="submenu">
-                <li class="subitem"><a href="#awa">Awa Awa</a></li>
-                <li class="subitem"><a href="#footer">Where to contact</a></li>
-            
-            </ul>
-      
-        </li>
-        
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i>menu</a></li>
+      <li class="logo"><a href="#">Everything about me</a></li>
+      <li class="item"><a href="#header">Home</a></li>
+      <li class="item has-submenu">
+        <a tabindex="0">Who am I</a>
+        <ul class="submenu">
+          <li class="subitem"><a href="#academics">Experience</a></li>
+          <li class="subitem"><a href="#awa">Interests</a></li>
+          <li class="subitem"><a href="#hobbies"> Hobbies</a></li>
+          <li class="subitem"><a href="#academics">Academics</a></li>
+        </ul>
+      </li>
+      <li class="item has-submenu">
+        <a tabindex="0">Contact</a>
+        <ul class="submenu">
+          <li class="subitem"><a href="#awa">Awa Awa</a></li>
+          <li class="subitem"><a href="#footer">Where to contact</a></li>
+        </ul>
+      </li>
+
+      <li class="toggle">
+        <a href="#"><i class="fas fa-bars"></i>menu</a>
+      </li>
     </ul>
-</nav>
+  </nav>
 
-
-    
-
-  <div class="header" id=header>
+  <div class="header" id="header">
     <h1 class="ml9">
       <span class="text-wrapper">
         <span class="letters">Juan Pablo</span>
       </span>
     </h1>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <img src="yo.jpeg" alt="presentacion" width="304" height="342">
+    <img src="yo.jpeg" alt="presentacion" width="304" height="342" />
   </div>
 
-    <head> 
-
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
-        crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
-            crossorigin="anonymous">
-    </script>
-      <link rel="stylesheet" href="/Entrega1/style1.css">
-
-        
-    </head>
-<body>
-  <script src="script.js"></script>
-  
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/Entrega1/style1.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
 
     <main>
-
-
       <div class="flex-container">
-        <div class="flex-item"></div> 
-        <div class="flex-item"></div> 
-        <div class="flex-item1"><h2 id=about> Hi! </h2> <p>Welcome to my webPage,</p> <p>I am Juan Pablo Martinez a Student at Universidad de los Andes,</p> 
-          <p>I reside at Bogota, Colombia.</p>  </div>
         <div class="flex-item"></div>
-        <div class="flex-item"></div> 
+        <div class="flex-item"></div>
+        <div class="flex-item1">
+          <h2 id="about">Hi!</h2>
+          <p>Welcome to my webPage,</p>
+          <p>I am Juan Pablo Martinez a Student at Universidad de los Andes,</p>
+          <p>I reside at Bogota, Colombia.</p>
+        </div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
       </div>
 
-      
-        
+      <table class="table1" id="academics">
+        <tr>
+          <th>Academics</th>
+          <th>Experience and Proyects</th>
+        </tr>
+        <tr class="table2">
+          <td class="content1">
+            I graduated from a school in Pereira named Fundacion Liceo Ingles,
+            and passed through other schooles such as Colegio Granadino, and
+            Gimnasio Horizontes. I am in great debt with all of these shcools,
+            as they formed me to be a person that has its vallues clear and is
+            very deterministic. During this time, I did several courses that led
+            me to believe that Engineering was the right path to take,
+            specifically software Engineering. After taking this decition, i
+            went to Bogota to choose my future univerisy. The decition was
+            clear, i was going to be attending Universida de los Andes to study
+            "Ingenieria de Sistemas". As of 2/10/2021 Im currently on mmy sixth
+            semester and ive been having a blast, loving every second of my
+            carrer this far.
+          </td>
+          <td class="content2">
+            Currently i've developed several proyects for my classes throughout
+            my carreer. I chose to do two honours programming classes, in which
+            i developed several proyects that reinforced my coding habilities.
+            Ive worked with data bases, data mining, langauge development among
+            many others. Personally ive been involved in two mayor proyects, the
+            first one realted to bike lending, and the second one related to the
+            triage process at clinics and hospotals. Ive always considered
+            myself to be very passionate about these proyects and tried my best
+            for them to be as good as they can. Currently im involved in a web
+            development proyect, which i am eager to learn from.
+          </td>
+        </tr>
+      </table>
 
-        <table class=table1 id=academics>
-            <tr >
-              <th>Academics</th>
-              <th>Experience and Proyects</th> 
-              
-            </tr>
-            <tr class= table2>
-              <td class=content1> I graduated from a school in Pereira named Fundacion Liceo Ingles, and passed through other schooles such as Colegio Granadino, and Gimnasio Horizontes.
-                 I am in great debt with all of these shcools, as they formed me to be a person that has its vallues clear and is very deterministic. During this time, I did several 
-                courses that led me to believe that Engineering was the right path to take, specifically software Engineering. After taking this decition, i went to Bogota to choose 
-              my future univerisy. The decition was clear, i was going to be attending Universida de los Andes to study "Ingenieria de Sistemas". As of 2/10/2021 Im currently on mmy sixth semester
-            and ive been having a blast, loving every second of my carrer this far.</td>
-              <td class=content2>Currently i've developed several proyects for my classes throughout my carreer. I chose to do two honours programming classes, in which i developed several proyects that
-                reinforced my coding habilities. Ive worked with data bases, data mining, langauge development among many others. Personally ive been involved in two mayor proyects, the first 
-                one realted to bike lending, and the second one related to the triage process at clinics and hospotals. Ive always considered myself to be very passionate about these proyects and 
-                tried my best for them to be as good as they can. Currently im involved in a web development proyect, which i am eager to learn from.
-              </td>
-              
-            </tr>
-            
-           
-          </table>
+      <h2 id="hobbies">hobbies</h2>
 
-<h2 id=hobbies>hobbies</h2>
-       
-          <div class="bungo">
-            <div class="parent">
-              <div class="child">
-                <img src="walbra.png" width=auto alt=auto height=auto class="imagen1">
-              </div>
-              <div class="child">I love drawing! it makes me very calm and with a true feeling of peace. I express my emotions through drawing and specially love to do it
-                by myself in complete silence, even without music. Here are some examples of some of my artwork, i have many others but decided to intrigue you into checking me out!
-                Its completely free and it definitely helps me a lot.
-                <div></div>
-                <div></div>
-                <div>CLICK THE LINKS!!</div>
-              </div>
+      <div class="bungo">
+        <div class="parent">
+          <div class="child">
+            <img
+              src="walbra.png"
+              width="auto"
+              alt="auto"
+              height="auto"
+              class="imagen1"
+            />
+          </div>
+          <div class="child">
+            I love drawing! it makes me very calm and with a true feeling of
+            peace. I express my emotions through drawing and specially love to
+            do it by myself in complete silence, even without music. Here are
+            some examples of some of my artwork, i have many others but decided
+            to intrigue you into checking me out! Its completely free and it
+            definitely helps me a lot.
+            <div></div>
+            <div></div>
+            <div>CLICK THE LINKS!!</div>
+          </div>
 
-              
-              <div class="child"><img src="coso.png" width=:300px alt="300px" height="300px" class="imagen1"></div>
-              <div class="child"><img src="sarilu.png" width=:300px alt="300px" height="300px" class="imagen1"></div>
-              <div class="child"> <img src="leonsito.png" width=auto alt=auto height=auto class="imagen1"> </div>
-              <div class="child"><img src="ai.png" width=auto alt=auto height=auto class="imagen1"></div>
-              
-              <div class="child"> <img src="Screenshot 2021-02-11 101147.png" width=auto alt=auto height=auto class="imagen1"> </div>
-              <div class="child"  ><a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a>
-                <a href="https://www.instagram.com/bungomydingo/" style="color:lightblue; font-size:60px; text-decoration:lightcyan; text-align:center;">@bungoMyDingo</a></div>
+          <div class="child">
+            <img
+              src="coso.png"
+              width=":300px"
+              alt="300px"
+              height="300px"
+              class="imagen1"
+            />
+          </div>
+          <div class="child">
+            <img
+              src="sarilu.png"
+              width=":300px"
+              alt="300px"
+              height="300px"
+              class="imagen1"
+            />
+          </div>
+          <div class="child">
+            <img
+              src="leonsito.png"
+              width="auto"
+              alt="auto"
+              height="auto"
+              class="imagen1"
+            />
+          </div>
+          <div class="child">
+            <img
+              src="ai.png"
+              width="auto"
+              alt="auto"
+              height="auto"
+              class="imagen1"
+            />
+          </div>
+
+          <div class="child">
+            <img
+              src="Screenshot 2021-02-11 101147.png"
+              width="auto"
+              alt="auto"
+              height="auto"
+              class="imagen1"
+            />
+          </div>
+          <div class="child">
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+            <a
+              href="https://www.instagram.com/bungomydingo/"
+              style="
+                color: lightblue;
+                font-size: 60px;
+                text-decoration: lightcyan;
+                text-align: center;
+              "
+              >@bungoMyDingo</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <table class="table1" id="academics">
+        <tr>
+          <th class="imagenCapas">Interests</th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr class="table2">
+          <td class="content1">
+            <div class="center">
+              <video width="300" height="auto" controls>
+                <source src="chichi.mp4" type="video/mp4" />
+                <source src="mov_bbb.ogg" type="video/ogg" />
+                Your browser does not support HTML video.
+              </video>
             </div>
-          </div>
-
-
-<table class=table1 id=academics>
-  <tr >
-    <th class="imagenCapas">Interests</th>
-    <th></th> 
-    <th></th>
-
-    
-  </tr>
-  <tr class= table2>
-    <td class="content1"> 
-      <div class="center">
-        <video width="300" height=auto controls>
-        <source src="chichi.mp4" type="video/mp4">
-        <source src="mov_bbb.ogg" type="video/ogg">
-        Your browser does not support HTML video.
-      </video>
-      </div>
-    </td> 
-    <td class="content3"> I love learning about stop motion on my spare time, its something that takes me a lot of time and dedication. It probably takes too much of my time, I still love it though. 
-      It is mainly between this and playing videogames. I also love chit chatting with my friends! Whenever i can affor to, I love playing basketball specially with my school friends, 
-      we had a great competitive team. This is a picture of hoy many layers does the video have.
-      <div><img src="dosney.jpeg"  width=auto height=300px></div>
-    </td>
-    <td class="imagenCapas">
-   
-    
-    </td>
-    
-  </tr>
-  
- 
-</table>
-          
-    
-
-        
+          </td>
+          <td class="content3">
+            I love learning about stop motion on my spare time, its something
+            that takes me a lot of time and dedication. It probably takes too
+            much of my time, I still love it though. It is mainly between this
+            and playing videogames. I also love chit chatting with my friends!
+            Whenever i can affor to, I love playing basketball specially with my
+            school friends, we had a great competitive team. This is a picture
+            of hoy many layers does the video have.
+            <div><img src="dosney.jpeg" width="auto" height="300px" /></div>
+          </td>
+          <td class="imagenCapas"></td>
+        </tr>
+      </table>
     </main>
+  </body>
 
-
-
-
-
-
-</body>
-
-
-
-
-
-
-<footer class="footer" id=footer>
-  <nav class="navbar navbar-default navbar-custom">
+  <footer class="footer" id="footer">
+    <nav class="navbar navbar-default navbar-custom">
       <div class="container-fluid">
-          <div class="nav navbar-nav navbar-left">
-              <ul class="footerleft">
-                  <li>
-                      <a href="https://twitter.com/chuchomar27">Twitter</a>                   
-                  </li>
-                  <li>
-                      <a href="https://www.facebook.com/">Facebook</a>                    
-                  </li>
-                  <li>
-                      <a href="https://www.instagram.com/chuchomartinez27/">Instagram</a>
-                  </li>
-
-                  <li>
-                    <audio class="audio" controls id=awa >
-                      <source src="awa awa dog.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                    </audio>
-                  </li>
-              </ul>
-          </div>
-
-          <div class="text-center center-block">
-              <a href="#https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-              <a href="#https://twitter.com/chuchomar27"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-              <a href="#https://www.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-              <a href="#https://www.google.com/search?q=penis+parker%5C&sxsrf=ALeKk02HLOC8Hk_8OmrHLmfjJa_Sdjp2Gg:1613161627913&tbm=isch&source=iu&ictx=1&fir=R5Xa7bGRcUBcqM%252CKWSPfaxoxbPOwM%252C_&vet=1&usg=AI4_-kSPtuGBmeb1sxtH7gjOehp2UxQBdA&sa=X&ved=2ahUKEwiF1q-ul-XuAhVLrFkKHaZeDIAQ9QF6BAgKEAE&biw=1920&bih=969#imgrc=R5Xa7bGRcUBcqM"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-          </div>
-          <div class="nav navbar-nav navbar-right">
-          <ul>
+        <div class="nav navbar-nav navbar-left">
+          <ul class="footerleft">
+            <li>
+              <a href="https://twitter.com/chuchomar27">Twitter</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/chuchomartinez27/"
+                >Instagram</a
+              >
+            </li>
 
             <li>
-              Surprise Link ahead! watch with discretion :p
-          </li>
-              <li>
-                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">Link 1</a>
-              </li>
-              <li>
-                  <a href="https://www.youtube.com/watch?v=wKbU8B-QVZk&feature=youtu.be&ab_channel=PWee28">Link 2</a>
-              </li>
-              
+              <audio class="audio" controls id="awa">
+                <source src="awa awa dog.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
           </ul>
-      </div>
+        </div>
 
+        <div class="text-center center-block">
+          <a href="#https://www.facebook.com/"
+            ><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i
+          ></a>
+          <a href="#https://twitter.com/chuchomar27"
+            ><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i
+          ></a>
+          <a href="#https://www.google.com/"
+            ><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i
+          ></a>
+          <a
+            href="#https://www.google.com/search?q=penis+parker%5C&sxsrf=ALeKk02HLOC8Hk_8OmrHLmfjJa_Sdjp2Gg:1613161627913&tbm=isch&source=iu&ictx=1&fir=R5Xa7bGRcUBcqM%252CKWSPfaxoxbPOwM%252C_&vet=1&usg=AI4_-kSPtuGBmeb1sxtH7gjOehp2UxQBdA&sa=X&ved=2ahUKEwiF1q-ul-XuAhVLrFkKHaZeDIAQ9QF6BAgKEAE&biw=1920&bih=969#imgrc=R5Xa7bGRcUBcqM"
+            ><i id="social-em" class="fa fa-envelope-square fa-3x social"></i
+          ></a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+          <ul>
+            <li>Surprise Link ahead! watch with discretion :p</li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
+                >Link 1</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=wKbU8B-QVZk&feature=youtu.be&ab_channel=PWee28"
+                >Link 2</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      
-  </nav>
-</footer>
+    </nav>
+  </footer>
 </html>
